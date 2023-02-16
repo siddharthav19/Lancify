@@ -6,28 +6,65 @@
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>Document</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+          crossorigin="anonymous"></script>
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+     <style>
+          * {
+               box-sizing: border-box;
+               margin: 0;
+               padding: 0;
+          }
+
+          .form-container {
+               font-family: 'Source Sans Pro', sans-serif;
+               font-weight: bolder;
+          }
+
+          .form-container,
+          .container--main {
+               border: 2px solid blanchedalmond;
+          }
+
+
+          .container--main {
+               display: flex;
+               padding: 2rem;
+          }
+     </style>
 </head>
 
-<body>
-     <section class="form-container">
-          <form action="" method="post">
-               <div class="login">
-                    <div class="decorator">
-                         <div class="inp">
-                              <label for="email">Email</label>
-                         </div>
-                         <input type="text" class="email--input" name="email">
-                    </div>
-                    <div class="decorator">
-                         <div class="inp">
-                              <label for="password">Password</label>
-                         </div>
-                         <input type="text" class="password--input" name="password">
-                    </div>
-               </div>
-          </form>
-     </section>
+<!-- amritansh isko thik karna hai -->
 
+<body>
+
+     <div class="container--main">
+          <section class="image--gradient">
+          </section>
+          <section class="form-container">
+               <form action="" method="post">
+                    <div class="login">
+                         <div class="decorator">
+                              <div class="inp">
+                                   <label for="email">Email</label>
+                              </div>
+                              <input type="text" class="email--input" name="email">
+                         </div>
+                         <div class="decorator">
+                              <div class="inp">
+                                   <label for="password">Password</label>
+                              </div>
+                              <input type="text" class="password--input" name="password">
+                         </div>
+                    </div>
+               </form>
+          </section>
+     </div>
 </body>
 
 </html>
