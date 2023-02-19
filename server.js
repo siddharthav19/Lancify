@@ -1,13 +1,13 @@
 require('dotenv').config();
-
 const express = require('express');
-const app = express();
 const bodyParser = require('body-parser');
 const ejs = require('ejs');
 const mongoose = require('mongoose');
 const xss = require('xss-clean');
 const expressMongoSanitize = require('express-mongo-sanitize');
 const helmet = require('helmet');
+
+const app = express();
 // middleware
 
 app.use(express.static(`${__dirname}/public/css`));
